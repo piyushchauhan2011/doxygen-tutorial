@@ -1,0 +1,9 @@
+build/
+docs/
+.vscode/
+*.swp
+.DS_Store
+*.o
+*.obj
+.idea/
+.DS_Store
