@@ -1,4 +1,8 @@
-add_library(mylib STATIC math/math.cpp)
+add_library(mylib STATIC
+	math/math.cpp
+	service/sum_service.cpp
+	io/console_writer.cpp
+)
 target_include_directories(mylib PUBLIC ${PROJECT_SOURCE_DIR}/include)
 
 add_executable(app main.cpp)
